@@ -42,7 +42,6 @@ else
 end
 %% Load Blinded Treadmilling Structure.
 clear; clc;
-addpath('Functions');
 trdml = dir('DataSets/BlindedKymos*');
 load([trdml.folder '/' trdml.name])
 filesave = 'BlindedKymos';
