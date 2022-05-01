@@ -27,4 +27,4 @@ Once this strain structure is prepared, you are ready for kymograph analysis.
 - If you wish to concatenate and mix several strains together for a blinded analysis, run section 1. It will make a single structure and randomize all the data.
 - Section 2 will allow you to check the current index of segmentation you're on. 
 - Section 3 is the segmentation portion. Update your index one at a time. It will pull up a figure window and prompt you to select segments of movement you identify in each kymograph. Both the left and right kymograph are the same. I just apply a different color lookup table to each to help you screen them.
-- I have provided a test file, XY505. It is TB28 carrying pXYE2(*aph* *lacI* *ftsZ-gfp*). It has been segmented already, but it is an example of how kymographs are collected and pooled.
+- I have provided a test file, XY505. It is MG1655(*lacIZYA*::*frt*) carrying the plasmid pXYE2(*cat* *lacI* *ftsZ-gfp*). It has been segmented already, but it is an example of how kymographs are collected and pooled.
