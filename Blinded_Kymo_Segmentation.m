@@ -25,7 +25,6 @@ save('DataSets/BlindedKymos.mat','IndKymo');
 
 %% Check the most recently segmented kymo.
 clear; clc;
-addpath('Functions');
 trdml = dir('DataSets/BlindedKymos*');
 load([trdml.folder '/' trdml.name]);
 counter = 0;
@@ -50,7 +49,7 @@ px_size = 100; %Answer in nm.
 Exposure_Time = 0.2; %Answer in seconds.
 Dark_Time = 0.5; %Answer in seconds.
 
-Index = 542
+Index = 161;
 
 filename = IndKymo(Index).Name;
 figname = [IndKymo(Index).Date '-' IndKymo(Index).Name];
